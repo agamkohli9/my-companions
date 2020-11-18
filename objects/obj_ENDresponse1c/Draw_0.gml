@@ -12,4 +12,4 @@ draw_set_font(text_fnt);
 //draw
 draw_sprite(box_spr, 0, x, y);
 draw_text_ext(x, y, text, height, width);
-draw_text_ext(x, y+250, text1, height, width);
+draw_text_ext(x, y+150, text1, height, width);

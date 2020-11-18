@@ -31,15 +31,21 @@ function ending_choice2(){
 		  instance_destroy(obj_ENDchoice2);
 		  instance_destroy(obj_ENDresponse2inc);
 		  instance_destroy(obj_ENDresponse2c);
-		  instance_create_depth(10, 10, 10, obj_end);
-		  global.ending = false;
-		  not_displayed1 = true;
-		  response_not_displayed1 = true;
-		  continue1 = false;
-		  not_displayed2 = true;
-		  response_not_displayed2 = true;
-		  global.user_selection = 0;
-		  global.end_complete = true;
+		  if(global.user_selection==3){
+			  not_displayed2 = true;
+			  response_not_displayed2 = true;
+		  }
+		  else{
+			  global.ending = false;
+			  not_displayed1 = true;
+			  response_not_displayed1 = true;
+			  continue1 = false;
+			  not_displayed2 = true;
+			  response_not_displayed2 = true;
+			  global.user_selection = 0;
+			  global.end_complete = true;
+			  instance_create_depth(100, 100, 10, obj_end);
+		  }
 		}
 	}
 }

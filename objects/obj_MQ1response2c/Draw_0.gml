@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 //input text
-text = "Lilith: Sure, sounds like fun!";
+text = "Lilith: Sure, sounds like fun! I have something to need to finish up first, would you mind helping me?";
 
 //init
 width = sprite_get_width(box_spr);

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite10",
-    "path": "sprites/Sprite10/Sprite10.yy",
+    "name": "spr_player",
+    "path": "sprites/spr_player/spr_player.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "MQ1",
+    "path": "folders/Objects/MQ1.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_lilith",

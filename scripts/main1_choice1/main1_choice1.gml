@@ -5,6 +5,7 @@ function main1_choice1(){
 	global.is_select = true;
 	if(not_displayed1){
 		instance_create_depth(320, 640, 8, obj_MQ1choice1);
+		global.user_selection=0;
 		not_displayed1 = false;
 	}
 	if(global.user_selection!=1&&global.user_selection!=2&&global.user_selection!=3){
@@ -33,6 +34,11 @@ function main1_choice1(){
 		  instance_destroy(obj_MQ1response1inc);
 		  instance_destroy(obj_MQ1response1c);
 		  continue1 = true;
+		  if(global.user_selection == 1){
+			continue1 = false;
+			not_displayed1 = true;  
+			response_not_displayed1 = true;
+		  }
 		  cooldown = 600;
 		}
 	}

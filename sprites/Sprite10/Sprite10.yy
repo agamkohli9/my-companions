@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7dbf22a9-704f-4dc1-8356-77c87ee13f1a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "My_Companions_Alpha",
-    "path": "My_Companions_Alpha.yyp",
+    "name": "My_Companions_Beta_Release",
+    "path": "My_Companions_Beta_Release.yyp",
   },
   "resourceVersion": "1.0",
   "name": "Sprite10",

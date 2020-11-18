@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite14",
-    "path": "sprites/Sprite14/Sprite14.yy",
+    "name": "sprMom",
+    "path": "sprites/sprMom/sprMom.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Ending",
+    "path": "folders/Objects/Ending.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_mom",

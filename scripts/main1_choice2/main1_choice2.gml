@@ -9,7 +9,7 @@ function main1_choice2(){
 		not_displayed2 = false;
 	}
 	if(global.user_selection!=1&&global.user_selection!=2){
-		//"Please input 1, 2, or 3 to select option 1, 2, or 3.
+		//"Please input 1 or 2 to select option 1 or 2..
 	}
 	else{
 		if(response_not_displayed2){
@@ -31,16 +31,12 @@ function main1_choice2(){
 		  instance_destroy(obj_MQ1response2inc);
 		  instance_destroy(obj_MQ1response2c);
 		  continue2 = true;
-		  cooldown = 600;
-		  global.mainquest1 = false;
-		  not_displayed1 = true;
-		  response_not_displayed1 = true;
-		  continue1 = false;
-		  not_displayed2 = true;
-		  response_not_displayed2 = true;
-		  continue2 = false;
-		  global.mq1_complete = true;
-		  global.user_selection = 0;
+		  if(global.user_selection == 1){
+			continue2 = false;
+			not_displayed2 = true;  
+			response_not_displayed2 = true;
+		  }
+		  cooldown = 200;
 		}
 	}
 }

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9998b7d1-1fa2-4dcc-867d-9ffe827f6c68","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "My_Companions_Alpha",
-    "path": "My_Companions_Alpha.yyp",
+    "name": "My_Companions_Beta_Release",
+    "path": "My_Companions_Beta_Release.yyp",
   },
   "resourceVersion": "1.0",
   "name": "Sprite14",
